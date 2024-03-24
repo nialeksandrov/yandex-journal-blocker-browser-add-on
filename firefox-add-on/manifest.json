@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Yandex Journal Blocker",
+    "version": "1.0",
+    "description": "Hides Yandex Journal, Shedevrum and Game on the Main Yandex Page",
+    "icons": {
+      "48": "icons/icon.svg"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://yandex.kz/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
