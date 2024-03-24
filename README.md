@@ -1,0 +1,1 @@
+# yandex-journal-blocker-browser-add-on
